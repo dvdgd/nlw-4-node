@@ -1,5 +1,5 @@
-import { getCustomRepository, Not, IsNull } from "typeorm";
 import { Request, Response } from "express";
+import { getCustomRepository, IsNull, Not } from "typeorm";
 import { SurveysUsersRepository } from "../repositories/SuveysUserRepository";
 
 class NpsController {
